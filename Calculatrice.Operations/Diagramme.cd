@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Calculatrice.Classes.Operation">
+    <Position X="5.25" Y="1" Width="1.5" />
+    <Members>
+      <Method Name="Operation" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Operation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Calculatrice.Classes.Modulo">
+    <Position X="3.75" Y="4" Width="1.5" />
+    <Members>
+      <Method Name="Modulo" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modulo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Calculatrice.Classes.Addition">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <Members>
+      <Method Name="Addition" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Addition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Calculatrice.Classes.Multiplication">
+    <Position X="8.5" Y="4" Width="1.5" />
+    <Members>
+      <Method Name="Multiplication" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Multiplication.cs</FileName>
+      <NewMemberFileName>Addition.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Calculatrice.Classes.Division">
+    <Position X="1.25" Y="4" Width="1.5" />
+    <Members>
+      <Method Name="Division" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Division.cs</FileName>
+      <NewMemberFileName>Addition.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Calculatrice.Classes.Soustraction">
+    <Position X="10.75" Y="4" Width="1.5" />
+    <Members>
+      <Method Name="Soustraction" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Soustraction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
