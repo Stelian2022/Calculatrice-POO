@@ -6,23 +6,17 @@ namespace Calculatrice
 {
     class Program
     {
+      
+
         static Dictionary<string, Operation> Operations { get; }
-
-        // Un constucteur statique est une alternative à une initialisation du dictionnaire au moment de sa déclaration
-        // see https://learn.microsoft.com/fr-fr/dotnet/csharp/programming-guide/classes-and-structs/static-constructors
-        static Program()
-        {
-            Operations = new Dictionary<string, Operation>()
-            {
-                {  "+", new Addition() },
-                {  "-", new Soustraction() },
-                {  "*", new Multiplication() },
-                {  "/", new Division() },
-                {  "%", new Modulo() }
-
-            };
-
-        }
+= new()
+{
+{ "+", new Addition() },
+{ "-", new Soustraction() },
+{ "*", new Multiplication() },
+{ "/", new Division() },
+{ "%", new Modulo() }
+};
         static void Main(string[] args)
         {
             do

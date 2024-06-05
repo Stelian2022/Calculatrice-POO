@@ -9,6 +9,6 @@
             Symbole = symbole;
         }
 
-        public abstract int Calculer(int a, int b);
+        public abstract decimal Calculer(int a, int b);
     }
 }

@@ -6,7 +6,7 @@
         {
         }
 
-        public override int Calculer(int a, int b)
+        public override decimal Calculer(int a, int b)
         {
             return a - b;
         }
